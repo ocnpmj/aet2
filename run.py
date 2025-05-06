@@ -34,7 +34,7 @@ def read_csv_range(filename, start, end):
 
 # Rentang data yang diproses (misal dari baris 1 sampai 50)
 start_row =0  # Baris pertama (0-based index)
-end_row = 50  # Baris terakhir yang ingin diproses
+end_row = 400  # Baris terakhir yang ingin diproses
 
 # Deklarasi akun tunggal
 email = "cwickgcobiebu"
@@ -55,45 +55,45 @@ for title in titles:
 
         fix_username = username+'_'+random_string(5)
 
-        judul =f'{kw} Leaked Onlyfans New Files Update - ({random_string(5)})' 
+        judul =f'{kw} Onlyfans Leaked Video and Pict - ({random_string(5)})' 
 
-        slug = f'{username}-leaked-onlyfans-new-files-2025-{random_string(5)}'
+        slug = f'{username}-leaked-onlyfans-video-download-2025-{random_string(5)}'
         gmailnya = f'{fix_username}@gmail.com'
         print(judul)
 
 
         driver = webdriver.Chrome()
-        driver.maximize_window()
+      
 
         
 
         driver.get(f"https://aetherhub.com/Account/Register")
        
-        time.sleep(5)
+        time.sleep(7)
 
         driver.find_element(By.CSS_SELECTOR, '#Username').send_keys(slug)
-        time.sleep(1)
+        time.sleep(2)
 
 
         driver.find_element(By.CSS_SELECTOR, '#Email').send_keys(gmailnya)
-        time.sleep(1)
+        time.sleep(2)
 
         driver.find_element(By.CSS_SELECTOR, '#Password').send_keys('CobaGas123OKx')
-        time.sleep(1)
+        time.sleep(2)
 
         driver.find_element(By.CSS_SELECTOR, '#ConfirmPassword').send_keys('CobaGas123OKx')
-        time.sleep(1)
+        time.sleep(2)
 
         #angre
 
         driver.find_element(By.CSS_SELECTOR, '#Consent').click()
-        time.sleep(1)
+        time.sleep(2)
 
         driver.find_element(By.CSS_SELECTOR, '#Newsletter').click()
-        time.sleep(1)
+        time.sleep(2)
 
         driver.find_element(By.CSS_SELECTOR, 'input[type="submit"]').click()
-        time.sleep(5)
+        time.sleep(10)
         
 
         driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div[1]/div[1]/form/div[16]/div/a').click()
@@ -121,7 +121,7 @@ for title in titles:
         
 
         driver.find_element(By.CSS_SELECTOR, '#descriptionSubmit').click()
-        time.sleep(5)
+        time.sleep(7)
 
 
 
