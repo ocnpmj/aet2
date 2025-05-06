@@ -136,7 +136,9 @@ for title in titles:
      
         time.sleep(5)
         driver.close()
-    except:
+    except Exception as e:
         driver.quit()
+        print("Terjadi error")
+        print(e)
 
         
